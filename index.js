@@ -48,22 +48,24 @@ const questions = [
         type: "input",
         message: "Please enter an email address for people to contact you",
         name: "email",
-    },
+    }
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {
+//function init() {}
 
-}
 
-// inquirer
-// .prompt(questions)
-// .then((answers) => {
-//   // Use user feedback for... whatever!!
-// })
+
+inquirer
+.prompt(questions)
+.then(
+        (answers) =>{
+        console.log(answers);
+        }
+)
 // .catch((error) => {
 //   if (error.isTtyError) {
 //     // Prompt couldn't be rendered in the current environment
@@ -73,4 +75,4 @@ function init() {
 // }
 
 // Function call to initialize app
-init();
+//init();
