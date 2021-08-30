@@ -10,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACDecastro/ReadMe-Generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ACDecastro/ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/ACDecastro/ReadMe-Generator#readme"
 }
